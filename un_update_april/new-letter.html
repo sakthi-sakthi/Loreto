@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from loreto.in/un_update_april/new-letter.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Sep 2023 05:42:37 GMT -->
+<head>
+    <title> MAGAZINE  </title>
+    <link rel="apple-touch-icon" sizes="57x57" href="fevi/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="fevi/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="fevi/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="fevi/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="fevi/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="fevi/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="fevi/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="fevi/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="fevi/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="fevi/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fevi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="fevi/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fevi/favicon-16x16.png">
+    <link rel="manifest" href="../manifest.html">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../ms-icon-144x144.html">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="../dflip/css/dflip.css" rel="stylesheet" type="text/css">
+    <link href="../dflip/css/themify-icons.css" rel="stylesheet" type="text/css">
+    <link href="../dflip/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .df-container .loading-info {
+            background-color: rgba(0, 0, 0, 0.69);
+            font-style: normal;
+            font-weight: 100;
+            font-family: 'Helvetica Light', 'Helvetica',sans-serif;
+        }
+
+        .df-share-button {
+            padding: 6px;
+            color: rgba(170, 170, 170, 0.83);
+        }
+
+        .df-ui-share {
+            font-weight: 100;
+            color: rgba(136, 136, 136, 0.62);
+        }
+
+        .ti-whatsapp {
+            display: none;
+        }
+        /*@media screen and (max-width:480px) {
+            .df-floating .df-ui-controls{width: 480px; max-width: 100%; justify-content: center; height: auto;    transform: translateX(-0%); left: 0%;
+        }
+
+        }*/
+
+        @media screen and (max-width:990px) {
+            .ti-whatsapp {
+                display: inline;
+            }
+        }
+
+        .df-container.df-xs .df-ui-controls .df-ui-btn.df-ui-page {
+            display: block!important;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="flipbookContainer"></div>
+
+
+    <script src="../dflip/js/libs/jquery.min.js" type="text/javascript"></script>
+    <script src="../dflip/js/dflip.js" type="text/javascript"></script>
+
+    <script>
+
+        jQuery(document).ready(function () {
+
+            //make sure this file is hosted in localhost or any other server
+            var pdf = 'April2019.pdf';
+            var ww = $(window).width()
+
+            var options = {
+                webgl: false,
+                height: 800,
+                duration: 800,
+                autoEnableOutline: false,
+                overwritePDFOutline: true,
+                autoPlay: true,
+
+                moreControls: ww < 480 ? "download,share,outline,play,pageMode,thumbnail" : "outline,play,pageMode,thumbnail",
+            };
+
+            options.outline = [
+            { title: "Cover", dest: 1 },
+{ title: "	Page 1	", dest: 2 },
+{ title: "	Page 2	", dest: 3 },
+{ title: "	Page 3	", dest: 4 },
+//{ title: "	Page 4	", dest: 5 },
+//{ title: "	Page 5	", dest: 6 },
+//{ title: "	Page 6	", dest: 7 },
+//{ title: "	Page 7	", dest: 8 },
+//{ title: "	Page 8	", dest: 9 },
+//{ title: "	Page 9	", dest: 10 },
+//{ title: "	Page 10	", dest: 11 },
+//{ title: "	Page 11	", dest: 12 },
+//{ title: "	Page 12	", dest: 13 },
+//{ title: "	Page 13	", dest: 14 },
+//{ title: "	Page 14	", dest: 15 },
+//{ title: "	Page 15	", dest: 16 },
+//{ title: "	Page 16	", dest: 17 },
+//{ title: "	Page 17	", dest: 18 },
+//{ title: "	Page 18	", dest: 19 },
+//{ title: "	Page 19	", dest: 20 },
+//{ title: "	Page 20	", dest: 21 },
+//{ title: "	Page 21	", dest: 22 },
+//{ title: "	Page 22	", dest: 23 },
+//{ title: "	Page 23	", dest: 24 },
+//{ title: "	Page 24	", dest: 25 },
+//{ title: "	Page 25	", dest: 26 },
+//{ title: "	Page 26	", dest: 27 },
+//{ title: "	Page 27	", dest: 28 },
+//{ title: "	Page 28	", dest: 29 },
+//{ title: "	Page 29	", dest: 30 },
+//{ title: "	Page 30	", dest: 31 },
+//{ title: "	Page 31	", dest: 32 },
+//{ title: "	Page 32	", dest: 33 },
+//{ title: "	Page 33	", dest: 34 },
+//{ title: "	Page 34	", dest: 35 },
+//{ title: "	Page 35	", dest: 36 },
+//{ title: "	Page 36	", dest: 37 },
+//{ title: "	Page 37	", dest: 38 },
+//{ title: "	Page 38	", dest: 39 },
+//{ title: "	Page 39	", dest: 40 },
+//{ title: "	Page 40	", dest: 41 },
+//{ title: "	Page 41	", dest: 42 },
+//{ title: "	Page 42	", dest: 43 },
+//{ title: "	Page 43	", dest: 44 },
+//{ title: "	Page 44	", dest: 45 },
+//{ title: "	Page 45	", dest: 46 },
+//{ title: "	Page 46	", dest: 47 },
+//{ title: "	Page 47	", dest: 48 },
+//{ title: "	Page 48	", dest: 49 },
+//{ title: "	Page 49	", dest: 50 },
+//{ title: "	Page 50	", dest: 51 },
+//{ title: "	Page 51	", dest: 52 },
+//{ title: "	Page 52	", dest: 53 },
+//{ title: "	Page 53	", dest: 54 },
+//{ title: "	Page 54	", dest: 55 },
+//{ title: "	Page 55	", dest: 56 },
+//{ title: "	Page 56	", dest: 57 },
+//{ title: "	Page 57	", dest: 58 },
+//{ title: "	Page 58	", dest: 59 },
+//{ title: "	Page 59	", dest: 60 },
+//{ title: "	Page 60	", dest: 61 },
+//{ title: "	Page 61	", dest: 62 },
+//{ title: "	Page 62	", dest: 63 },
+//{ title: "	Page 63	", dest: 64 },
+//{ title: "	Page 64	", dest: 65 },
+//{ title: "	Page 65	", dest: 66 },
+//{ title: "	Page 66	", dest: 67 },
+//{ title: "	Page 67	", dest: 68 },
+//{ title: "	Page 68	", dest: 69 },
+//{ title: "	Page 69	", dest: 70 },
+//{ title: "	Page 70	", dest: 71 },
+//{ title: "	Page 71	", dest: 72 },
+//{ title: "	Page 72	", dest: 73 },
+//{ title: "	Page 73	", dest: 74 },
+//{ title: "	Page 74	", dest: 75 },
+//{ title: "	Page 75	", dest: 76 },
+//{ title: "	Page 76	", dest: 77 },
+//{ title: "	Page 77	", dest: 78 },
+//{ title: "	Page 78	", dest: 79 },
+//{ title: "	Page 79	", dest: 80 },
+//{ title: "	Page 80	", dest: 81 },
+//{ title: "	Page 81	", dest: 82 },
+//{ title: "	Page 82	", dest: 83 },
+//{ title: "	Page 83	", dest: 84 },
+//{ title: "	Page 84	", dest: 85 },
+//{ title: "	Page 85	", dest: 86 },
+//{ title: "	Page 86	", dest: 87 },
+//{ title: "	Page 87	", dest: 88 },
+//{ title: "	Page 88	", dest: 89 },
+//{ title: "	Page 89	", dest: 90 },
+//{ title: "	Page 90	", dest: 91 },
+//{ title: "	Page 91	", dest: 92 },
+//{ title: "	Page 92	", dest: 93 },
+//{ title: "	Page 93	", dest: 94 },
+//{ title: "	Page 94	", dest: 95 },
+//{ title: "	Page 95	", dest: 96 },
+//{ title: "	Page 96	", dest: 97 },
+//{ title: "	Page 97	", dest: 98 },
+//{ title: "	Page 98	", dest: 99 },
+//{ title: "	Page 99	", dest: 100 },
+//{ title: "	Page 100	", dest: 101 },
+//{ title: "	Page 101	", dest: 102 },
+//{ title: "	Page 102	", dest: 103 },
+//{ title: "	Page 103	", dest: 104 },
+//{ title: "	Page 104	", dest: 105 },
+//{ title: "	Page 105	", dest: 106 },
+//{ title: "	Page 106	", dest: 107 },
+//{ title: "	Page 107	", dest: 108 },
+//{ title: "	Page 108	", dest: 109 },
+//{ title: "	Page 109	", dest: 110 },
+//{ title: "	Page 110	", dest: 111 },
+//{ title: "	Page 111	", dest: 112 },
+//{ title: "	Page 112	", dest: 113 },
+//{ title: "	Page 113	", dest: 114 },
+//{ title: "	Page 114	", dest: 115 },
+//{ title: "	Page 115	", dest: 116 },
+//{ title: "	Page 116	", dest: 117 },
+//{ title: "	Page 117	", dest: 118 },
+//{ title: "	Page 118	", dest: 119 },
+//{ title: "	Page 119	", dest: 120 },
+//{ title: "	Page 120	", dest: 121 },
+//{ title: "	Page 121	", dest: 122 },
+//{ title: "	Page 122	", dest: 123 },
+//{ title: "	Page 123	", dest: 124 },
+//{ title: "	Page 124	", dest: 125 },
+//{ title: "	Page 125	", dest: 126 },
+//{ title: "	Page 126	", dest: 127 },
+//{ title: "	Page 127	", dest: 128 },
+//{ title: "	Page 128	", dest: 129 },
+//{ title: "	Page 129	", dest: 130 },
+//{ title: "	Page 130	", dest: 131 },
+//{ title: "	Page 131	", dest: 132 },
+//{ title: "	Page 132	", dest: 133 },
+//{ title: "	Page 133	", dest: 134 },
+//{ title: "	Page 134	", dest: 135 },
+//{ title: "	Page 135	", dest: 136 },
+//{ title: "	Page 136	", dest: 137 },
+//{ title: "	Page 137	", dest: 138 },
+//{ title: "	Page 138	", dest: 139 },
+{ title: "	Last	", dest: 4 },
+         ];
+
+            var flipBook = $("#flipbookContainer").flipBook(pdf, options);
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            //var element = document.getElementsByClassName('ti-whatsapp');
+            if (isMobile) {
+                $(".ti-whatsapp").show()
+            } else {
+                $(".ti-whatsapp").hide()
+            }
+
+        });
+    </script>
+</body>
+
+<!-- Mirrored from loreto.in/un_update_april/new-letter.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Sep 2023 05:42:45 GMT -->
+</html>

@@ -1,0 +1,298 @@
+System.IO.FileNotFoundException: Could not find file 'D:\Websites\LoretoProvinceKolkata_NEW\DownloadMat\Notice_27105216603.pdf'.
+File name: 'D:\Websites\LoretoProvinceKolkata_NEW\DownloadMat\Notice_27105216603.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.get_Length()
+   at _Downloads.DownloadAttachment(String str) in D:\Websites\LoretoProvinceKolkata_NEW\Downloads.aspx.vb:line 28
+   at _Downloads.Page_Load(Object sender, EventArgs e) in D:\Websites\LoretoProvinceKolkata_NEW\Downloads.aspx.vb:line 39
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Loreto Province, Kolkata
+</title><link rel="SHORTCUT ICON" href="/images/icon.jpg" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&amp;display=swap" rel="stylesheet" /><link href="/stylesheet/bootstrap.min.css" rel="stylesheet" type="text/css" /><link id="ctl00_Link2" rel="stylesheet" href="/stylesheet/font-awesome.min.css" media="all" /><link href="/stylesheet/flexslider.css" rel="stylesheet" /><link href="/stylesheet/gallery.css" rel="stylesheet" /><link href="/stylesheet/StyleSheet.css?var=1.0.1" rel="stylesheet" /><link href="/stylesheet/menucss.css?var=1.0.2" rel="stylesheet" />
+
+    <script src='/js/jquery.min.js' id='jquery-js'></script>
+    <style>
+        .content_heading {    
+    TEXT-TRANSFORM: UPPERCASE;
+}
+    </style>
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./Downloads?Doc=Notice_27105216603.pdf" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjhkZHryC1MQuWyu3o73LohObOjq7vZJ" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=HRH9TgXjg5vtphP2kAuu5EuEPCDWpWbDwe7lKrs-jkhEL8Th0BC6SGv9-2oC5a4Lt7Z_7YpNKP9LCHnBt5nvsOMPorc1&amp;t=638243003820000000" type="text/javascript"></script>
+
+
+<script src="Scripts/WebForms/MsAjax/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="19CC8457" />
+</div>
+     <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+      <header class="header">
+            <div class="header-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12 text-center">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+            <div class="header-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="logo">
+                                <a href="/">
+                                    <img src="/images/logo_small.png" />
+                                </a>
+                            </div>
+                            <nav class="navbar navbar-default">
+                                <div class="navbar-collapse">
+                                    <div class="menu-header-menu-3-container">
+
+                                        
+
+<ul id="nav" class="nav menu navbar-nav">
+    
+    <li id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72"><a href="javascript:void(0)">About Us</a>
+        <ul class="sub-menu">
+           
+                                        <li><a href="/about.aspx">Who we are</a> </li>
+               <li><a href="/Institute_Leadership_Team.aspx">Institute Leadership Team</a> </li>
+               <li><a href="/Provincialate-Leadership-Team.aspx">Provincialate Leadership Team</a> </li>
+                                        <li><a href="/history.aspx">History of loreto In India</a> </li>
+                                         
+                                        <li><a href="#">Pioneers </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="/mary-ward.aspx">Mary Ward</a></li>
+                                                <li><a href="/teresaball.aspx">Teresa Ball</a></li>
+                                                <li><a href="/delphinehart.aspx">Delphine Hart</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="/loretoindia.aspx">Loreto In India </a></li>
+                                        <li><a href="/foundation.aspx">Loreto Foundations in India</a> </li>
+                                        <li><a href="/crist.aspx">Archive </a></li>
+
+                                  
+        </ul>
+
+
+    </li>
+    <li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-73"><a href="javascript:void(0)">Spirituality & Charism </a>
+        <ul class="sub-menu">
+                                
+                                        <li><a href="/sprituality.aspx">Gospel Foundation</a></li>
+                                          <li><a href="/mary-ward-i.aspx">Mary Ward Spirituality</a></li>
+                                          <li><a href="/loreto_slider/Maxims_of_mary_award.aspx">Ignation Spirituality</a></li>
+                                        <li><a href="/house_prayer.aspx">House of Prayers</a></li>
+            
+
+        </ul>
+
+    </li>
+  
+       
+    <li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75"><a href="javascript:void(0)">Mission & Ministries & Songs </a>
+        <ul class="sub-menu">
+          
+                                         <li>
+                                            <a>Mission</a>
+                                              <ul class="sub-menu">
+                                                       <li><a href="/Education.aspx"> Education</a></li>
+                                                   <li><a href="/Social-Ministries.aspx">  Social Ministries</a></li>
+                                    
+                                        <li><a href="/Spiritual-Ministries.aspx">Spiritual Ministries</a></li>
+                                             </ul>
+                                        </li>
+                                         <li>
+                                            <a href="/songs.aspx">Songs</a>
+                                        </li>
+                                    
+
+                                    
+        </ul>
+    </li>
+
+    <li id="Li1" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-370"><a href="javascript:void(0)">Loreto Globally </a>
+        <ul class="sub-menu">
+                     
+                                         <li><a href="/news_from.aspx">News from the UN</a></li>
+                                        <li><a href="/loreto-global.aspx">Loreto Globally</a></li>
+                                        <li><a href="/mary-ward-i.aspx">Mary Ward International</a></li>
+                                        <li><a href="/lay.aspx">Lay Associates</a></li>
+                                        <li><a href="/useful-link.aspx">Useful Links</a></li>
+                                        <li><a href="/fcar_information.aspx">Fcra Information</a></li>
+                                
+        </ul>
+
+    </li>
+    <li id="Li2" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-370"><a href="/new-letter.aspx"> Newsletter</a>
+       
+    </li>
+     <li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-73"><a href="/jpic.aspx">  JPIC </a>
+        <li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-73"><a href="javascript:void(0)">  Be Involved </a>
+        <ul class="sub-menu">
+          
+                                         <li><a href="/loretosister.aspx">  Become a Loreto Sister </a></li>
+                                         <li><a href="/loretosister.aspx">  Friends of Mary Ward </a></li>
+                                     
+        </ul>
+
+    </li>
+    </li>
+   
+</ul>
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </nav>
+                            <a href="/ContactDirection/ContactUs.aspx" class="contctbtn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content_container">
+           <div class="container">
+            <div class="content_heading"> 
+                
+    </div>
+               <div class="content_container_inner">                  
+
+
+
+
+               </div>
+                    </div>
+       </div>
+
+        <div class="footer">
+            <div class="container p-0">
+                <div class="row m-0">
+                    <div class="col-sm-3">
+                        <p class="f14b "><b>Navigation</b></p>
+
+                        <ul class="usefullink mt-2">
+                            <li><a href="/about.aspx">Who we are</a></li>
+                            <li><a href="/history.aspx">History of loreto In India</a></li>
+                            <li><a href="/mary-ward.aspx">Mary Ward</a></li>
+                            <li><a href="/loretoindia.aspx">Loreto In India </a></li>
+                            <li><a href="/foundation.aspx">Loreto Foundations in India</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="f14b "><b>Quick Links</b></p>
+
+                        <ul class="usefullink mt-2">
+                            <li><a href="/useful-link.aspx">Useful Links</a></li>
+                            <li><a href="/mary-ward-i.aspx">Mary Ward International</a></li>
+                            <li><a href="/new-letter.aspx">Newsletter</a></li>
+                            <li><a href="/jpic.aspx">JPIC </a></li>
+                            <li><a href="/news_from.aspx">News from the UN</a></li>
+                            <li><a href="/loreto-global.aspx">Loreto Globally</a></li>
+                            <li><a href="/loretosister.aspx">Become a Loreto Sister </a></li>
+                            <li><a href="/loretosister.aspx">Friends of Mary Ward </a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="f14b "><b>Address</b></p>
+                        <p>7 Middleton Row Kolkata
+                            <br />
+                            700071 India</p>
+
+
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="f14b "><b>Contact</b></p>
+                        <ul class="contacts">
+                            <li><a href="#"><span class="phone"></span>033 - 4006 1156</a></li>
+                            <li><a href="#"><span class="emailId"></span>loretosa.sec@gmail.com</a></li>
+                        </ul>
+                        <ul class="socialIcon">
+                            <li class="facebook"><a href="#"></a></li>
+                            <li class="twitter"><a href="#"></a></li>
+                            <li class="linkdin"><a href="#"></a></li>
+                            <li class="instragram"><a href="#"></a></li>
+                        </ul>
+                        <div class="download_Broch"><a href="#">
+                            <img src="/images/download_Bro.png" /></a></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container p-0 fbdr">
+                <div class="row mt-5">
+                    <div class="col-md-12 text-center">
+                        <div class="footerBtm mt-5">
+                            2022 © All Rights Reserved by Loreto Province, Kolkata
+ 
+
+                         
+
+                            <br>
+                            Designed & Powered by: : <a href="https://www.franciscansolutions.com" target="_blank">Franciscan Solutions .Pvt .ltd</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <script src="/js/slicknav.min.js"></script>
+    <script src="/js/flexslider.js"></script>
+    <script>
+        $('#nav.menu').slicknav({
+            prependTo: ".mobile-menu",
+            duration: 600,
+            closeOnClick: true,
+        });    
+     
+    </script>
+</body>
+</html>
